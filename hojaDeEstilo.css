@@ -1,7 +1,14 @@
-#imagenLogo{
-    height: 20px;
-}
+/* #footer {
+    i {
+        font-size: 25px;
+    }
 
-.nav-item:hover {
-    text-transform: uppercase;
+    i:hover {
+        color: red;
+    }
+    
+} */
+
+#iconoLinkedIn {
+    --bs-icon-link-transform: translate3d(0, -.125rem, 0);
 }
