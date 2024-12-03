@@ -30,12 +30,66 @@
 <body>
 
     <!-- Header con navbar -->
-    <div class="container-fluid bg-primary p-3 d-flex justify-content-center">
-        <h1> HEADER </h1>
-    </div>
+    <header>
+
+        <div class="p-3 bg-primary text-white text-center" id="tituloHeader">
+            <h1>Jugando con mayores</h1>
+            <p>Mejorando las capacidades cognitivas de adultos mayores a través del juego</p>
+        </div>
+
+        <nav class="navbar navbar-expand-sm border border-1">
+            <div class="container-fluid">
+                <ul class="navbar-nav" id="listaNavBar">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/index.html">
+                            <i class="fa-solid fa-gamepad"></i>
+                            - Inicio
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-user-group"></i>
+                            - Sobre nosotros</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-flask"></i>
+                            - Base científica
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-book"></i>
+                            - El método
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-image"></i>
+                            - Galería
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/public/pages/contacto.html">
+                            <i class="fa-solid fa-envelope"></i>
+                            - Contacto
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </nav>
+
+    </header>
 
     <!-- Main : Formulario. La validación se realiza mediante la librería Bootstrap -->
-    <div id="formularioDeContacto" class="container-fluid p-1">
+    <section id="formularioDeContacto" class="container-fluid p-3">
         <div id="explicacionContacto" class="container d-flex justify-content-center my-3">
             <p>Rellene el siguiente formulario si desea realizar cualquier consulta. Los campos con
                 <strong>asterisco*</strong> son obligatorios. <br> Nos pondremos en contacto con la mayor brevedad
@@ -90,27 +144,41 @@
                     </div>
                 </div>
 
-                <div class="col">
-                    <div class="form-check">
-                        <p>¿Como nos conoció?</p>
-                        <input class="form-check-input" type="checkbox" id="buscadorOnlineCheck"
-                            name="buscadorOnlineCheck" value="buscador" checked>
-                        <label class="form-check-label" for="buscadorOnlineCheck">Buscador online</label>
+                <div class="col border-radius-2">
+
+                    <div class="row">
+                        <p class="d-flex justify-content-center">¿Como nos conoció?</p>
                     </div>
 
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="amigosCheck"
-                            name="amigosRadioFormulario" value="amigos">
-                        <label class="form-check-label" for="amigosRadioFormulario">Amigos</label>
+                    <div class="row">
+                        <div class="col d-flex justify-content-center">
+                                <input class="form-check-input" type="checkbox" id="buscadorOnlineCheck"
+                                    name="buscadorOnlineCheck" value="buscador">
+                                <label class="form-check-label" for="buscadorOnlineCheck">Buscador online</label>
+                        </div>
+
+                        <div class="col d-flex justify-content-center">
+                                <input class="form-check-input" type="checkbox" id="amigosCheck" name="amigosRadioFormulario"
+                                    value="amigos">
+                                <label class="form-check-label" for="amigosRadioFormulario">Amigos</label>
+                        </div>
+
                     </div>
 
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="redesSocialesCheck"
-                            name="redesSocialesCheck" value="redesSociales">
-                        <label class="form-check-label" for="redesSocialesCheck">Redes sociales</label>
+                    <div class="row">
+                        <div class="col d-flex justify-content-center">
+                                <input class="form-check-input" type="checkbox" id="redesSocialesCheck"
+                                    name="redesSocialesCheck" value="redesSociales">
+                                <label class="form-check-label" for="redesSocialesCheck">Redes sociales</label>
+                        </div>
+
+                        <div class="col d-flex justify-content-center">
+                                <input class="form-check-input" type="checkbox" id="otrosCheck" name="otrosRadioFormulario"
+                                    value="otros">
+                                <label class="form-check-label" for="otrosRadioFormulario">Otros</label>
+                        </div>
+
                     </div>
-
-
 
                 </div>
             </div>
@@ -137,14 +205,41 @@
 
         </form>
 
-    </div>
+    </section>
 
     <!-- Footer -->
-    <div class="container-fluid bg-primary p-3 d-flex justify-content-center" id="footer">
+    <footer>
 
-        <h1>Footer</h1>
+        <div class="container-fluid bg-primary p-3" id="footer">
 
-    </div>
+            <div class="row">
+                <div class="col d-flex justify-content-center" id="iconosEnlaces">
+                    <a href="https://discord.com/" class="mx-2">
+                        <i class="fa-brands fa-discord"></i>
+                    </a>
+                    <a href="https://www.google.es/" class="mx-2">
+                        <i class="fa-brands fa-google"></i>
+                    </a>
+                    <a href="https://x.com/?lang=es" class="mx-2">
+                        <i class="fa-brands fa-square-x-twitter"></i>
+                    </a>
+                    <a href="https://es.linkedin.com/" class="mx-2">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+                <p class="d-flex justify-content-center p-3 my-1"><strong>DIM47©</strong> &nbsp;es una marca registrada
+                    protegida por las leyes
+                    de propiedad intelectual de España, registrada ante la Oficina Española de Patentes y Marcas (OEPM).
+                </p>
+            </div>
+        </div>
+
+    </footer>
 
 </body>
 
