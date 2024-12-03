@@ -1,14 +1,17 @@
-/* #footer {
-    i {
-        font-size: 25px;
-    }
+#tituloHeader {
+    font-family: 'Courier New', Courier, monospace;
+}
 
-    i:hover {
-        color: red;
-    }
+#iconosEnlaces {
     
-} */
+    i:hover {
+        transform: scale(1.5);
+    }
 
-#iconoLinkedIn {
-    --bs-icon-link-transform: translate3d(0, -.125rem, 0);
+}
+
+#listaNavBar {
+    li:hover {
+        transform: scale(1.15);
+    }
 }

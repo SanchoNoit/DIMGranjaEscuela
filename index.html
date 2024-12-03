@@ -28,106 +28,113 @@
 <body>
 
     <!-- Header con navbar -->
-    <div class="p-3 bg-primary text-white text-center" id="header">
-        <h1>Jugando con mayores</h1>
-        <p>Mejorando las capacidades cognitivas de adultos mayores a través del juego</p>
-    </div>
+    <header>
 
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top border border-1">
-        <div class="container-fluid">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" href="index.html">
-                        <i class="fa-solid fa-gamepad"></i>
-                        - Inicio
-                    </a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <i class="fa-solid fa-user-group"></i>
-                        - Sobre nosotros</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <i class="fa-solid fa-flask"></i>
-                        - Base científica
-                    </a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <i class="fa-solid fa-book"></i>
-                        - El método
-                    </a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <i class="fa-solid fa-image"></i>
-                        - Galería
-                    </a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <i class="fa-solid fa-envelope"></i>
-                        - Contacto
-                    </a>
-                </li>
-
-            </ul>
-
+        <div class="p-3 bg-primary text-white text-center" id="tituloHeader">
+            <h1>Jugando con mayores</h1>
+            <p>Mejorando las capacidades cognitivas de adultos mayores a través del juego</p>
         </div>
-    </nav>  
+    
+        <nav class="navbar navbar-expand-sm border border-1">
+            <div class="container-fluid">
+                <ul class="navbar-nav" id="listaNavBar">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">
+                            <i class="fa-solid fa-gamepad"></i>
+                            - Inicio
+                        </a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-user-group"></i>
+                            - Sobre nosotros</a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-flask"></i>
+                            - Base científica
+                        </a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-book"></i>
+                            - El método
+                        </a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-image"></i>
+                            - Galería
+                        </a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-envelope"></i>
+                            - Contacto
+                        </a>
+                    </li>
+    
+                </ul>
+    
+            </div>
+        </nav>
+
+    </header>
+      
 
     <!-- Main : Imagen que varía según el tamaño de pantalla -->
-     <div id="fotoCentralMain" class="d-flex justify-content-center">
-        <picture>
-            <source media="max-width: 800px" srcset="public/images/father-winning-game-front-his-son-small.jpg" />
-            <img class="img-fluid" src="public/images/mayoresJugando01.jpg" alt="Jugando con VR">
-            <figcaption class="d-flex justify-content-center">
-                Imágenes cortesía de:&nbsp; <a href="https://www.freepik.com/">Freepik</a></figcaption>
+     <main>
+        <div id="fotoCentralMain" class="d-flex justify-content-center">
+            <picture>
+                <img class="img-fluid" src="public/images/mayoresJugando01.jpg" alt="Jugando con VR">
+                <figcaption class="d-flex justify-content-center">
+                    Imágenes cortesía de:&nbsp; <a href="https://www.freepik.com/">Freepik</a></figcaption>
             </picture>
-        
-     </div>
+            
+         </div>
+     </main>
+     
     
      <!-- Footer -->
-      <div class="container-fluid bg-primary p-3" id="footer">
+      <footer>
 
-        <div class="row">
-            <div class="col d-flex justify-content-center">
-                <a href="https://discord.com/" class="mx-2">
-                    <i class="fa-brands fa-discord"></i>
-                </a>
-                <a href="https://www.google.es/" class="mx-2">
-                    <i class="fa-brands fa-google"></i>
-                </a>
-                <a href="https://x.com/?lang=es" class="mx-2">
-                    <i class="fa-brands fa-square-x-twitter"></i>
-                </a>
-                <a href="https://es.linkedin.com/" class="mx-2">
-                    <i class="fa-brands fa-linkedin"></i>
-                </a>
+        <div class="container-fluid bg-primary p-3" id="footer">
 
-                <a class="icon-link icon-link-hover" href="https://es.linkedin.com/" id="iconoLinkedIn">
-                    <i class="fa-brands fa-linkedin"></i>
-                </a>
+            <div class="row">
+                <div class="col d-flex justify-content-center" id="iconosEnlaces">
+                    <a href="https://discord.com/" class="mx-2">
+                        <i class="fa-brands fa-discord"></i>
+                    </a>
+                    <a href="https://www.google.es/" class="mx-2">
+                        <i class="fa-brands fa-google"></i>
+                    </a>
+                    <a href="https://x.com/?lang=es" class="mx-2">
+                        <i class="fa-brands fa-square-x-twitter"></i>
+                    </a>
+                    <a href="https://es.linkedin.com/" class="mx-2">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    
+                </div>
                 
             </div>
-            
-        </div>
+    
+            <div class="row">
+                <div class="col d-flex justify-content-center">
+                    <p>Columna 1</p>
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <p>Columna 2</p>
+                </div>
+            </div>
+          </div>
 
-        <div class="row">
-            <div class="col d-flex justify-content-center">
-                <p>Columna 1</p>
-            </div>
-            <div class="col d-flex justify-content-center">
-                <p>Columna 2</p>
-            </div>
-        </div>
-      </div>
+      </footer>
 
 </body>
 </html>
