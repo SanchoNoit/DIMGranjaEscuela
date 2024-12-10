@@ -1,8 +1,5 @@
 # Jugando con mayores
 
-Las rutas de este proyecto están configuradas para funcionar en un servidor, incluidas sus rutas absolutas: ábralo  
-empleando Visual Studio Code Live Server o similar.
-
 ## Objetivo
 Proyecto final de la asignatura de HTML&CSS. JugandoConMayores es una iniciativa personal orientada  
 a facilitar la introducción de la población senior en el mundo de los videojuegos para prevenir la  
@@ -39,3 +36,7 @@ La estructura seguida en el proyecto sigue las propuestas de "Best practices" se
 
 - ![Logo de Bootstrap 5](/public/images/Bootstrap_logo_small.png) Bootstrap
 - Visual Ctudio Code
+
+## Agradecimientos
+Agradecimiento especial a Martín Alejandro Pérez Güendulain https://github.com/mperezguendulain/mario-bros,  
+ del que hemos aprovechado su proyecto "Mario-Bros" para insertar el juego en nuestra página web.
