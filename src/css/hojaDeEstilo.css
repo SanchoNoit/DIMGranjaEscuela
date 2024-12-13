@@ -1,0 +1,22 @@
+#tituloHeader {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#iconosEnlaces {
+    
+    i:hover {
+        transform: scale(1.5);
+    }
+
+}
+
+#listaNavBar {
+    li:hover {
+        transform: scale(1.15);
+    }
+}
+
+.iconosImg {
+    height: 20px;
+
+}
