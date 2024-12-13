@@ -15,7 +15,6 @@ La estructura seguida en el proyecto sigue las propuestas de "Best practices" se
     └── 📁public
         └── 📁images
             └── 📁Icons
-                └── Mario.png
                 └── Minecraft.ico
             └── Bootstrap_logo_small.png
             └── Bootstrap_logo.png
@@ -26,7 +25,6 @@ La estructura seguida en el proyecto sigue las propuestas de "Best practices" se
     └── 📁src
         └── 📁css
             └── hojaDeEstilo.css
-        └── 📁mario-bros
     └── index.html
     └── ObjetivosPractica.md
     └── README.md
@@ -38,5 +36,3 @@ La estructura seguida en el proyecto sigue las propuestas de "Best practices" se
 - Visual Ctudio Code
 
 ## Agradecimientos
-Agradecimiento especial a Martín Alejandro Pérez Güendulain https://github.com/mperezguendulain/mario-bros,  
- del que hemos aprovechado su proyecto "Mario-Bros" para insertar el juego en nuestra página web.
