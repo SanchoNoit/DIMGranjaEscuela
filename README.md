@@ -15,7 +15,6 @@ La estructura seguida en el proyecto sigue las propuestas de "Best practices" se
     └── 📁public
         └── 📁images
             └── 📁Icons
-                └── Mario.png
                 └── Minecraft.ico
             └── Bootstrap_logo_small.png
             └── Bootstrap_logo.png
@@ -26,7 +25,6 @@ La estructura seguida en el proyecto sigue las propuestas de "Best practices" se
     └── 📁src
         └── 📁css
             └── hojaDeEstilo.css
-        └── 📁mario-bros
     └── index.html
     └── ObjetivosPractica.md
     └── README.md
