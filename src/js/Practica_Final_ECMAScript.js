@@ -18,6 +18,8 @@ const devolverHora = function () {
 
 console.log("Ejercicio 3 ==> " + devolverHora());
 
-// Ejercicio 4
-const relojCabecera = document.querySelector('#relojDigital');
-relojCabecera.insertAdjacentText(0, "Hola");
+// Ejercicio 4. Nos damos cuenta que hay que introducir un "Defer" para que el HTML se cargue antes que el JS.
+// TODO: Que el reloj se actualice cada segundo.
+console.log("Ejercicio 4 ==>");
+let relojCabecera = document.getElementById('relojDigital');
+relojCabecera.innerText = devolverHora();
