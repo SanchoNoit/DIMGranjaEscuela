@@ -1,4 +1,5 @@
-const json = [
+// TODO: ¿Podemos interactuar con este fichero? - Si no, el ejercicio 7 tiene que rehacerse: añado "export" antes de "const json".
+export const json = [
     {
       "name": "Leanne Graham",
       "username": "Bret",

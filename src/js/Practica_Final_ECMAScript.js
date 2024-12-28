@@ -47,3 +47,11 @@ fotoCentralMain.addEventListener('click', function() {
         fotoCentralMain.src = 'public/images/mayoresJugando01.jpg';
     }
 });
+
+// Ejercicio 7
+// TODO: Hacemos este preocedimiento añadiendo un "export en json.js"
+import { personas } from './json.js';
+
+personas.array.forEach(element => {
+    console.log(element.name);
+});
