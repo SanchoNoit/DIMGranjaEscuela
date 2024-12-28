@@ -1,3 +1,5 @@
+import { json } from './json.js';
+
 // Ejercicio 2
 
 // TODO: Asegúrate de que los apuntes confirman esta solución. 
@@ -50,8 +52,33 @@ fotoCentralMain.addEventListener('click', function() {
 
 // Ejercicio 7
 // TODO: Hacemos este preocedimiento añadiendo un "export en json.js"
-import { personas } from './json.js';
 
-personas.array.forEach(element => {
+json.forEach(element => {
     console.log(element.name);
 });
+
+// Ejercicio 8
+class Usuario {
+    #idUser;
+    #nombre;
+    #nombreUser;
+    #email;
+    //TODO: El enunciado dice que "empresa" sólo devolverá "el nombre de dicha empresa". No entiendo qué quiere decir con esto.
+    #empresa;
+    #direccion;
+    #url;
+
+    constructor(idUser, nombre, nombreUser, email, empresa, direccion, url) {
+        this.#idUser = idUser;
+        this.#nombre = nombre;
+        this.#nombreUser = nombreUser;
+        this.#email = email;
+        this.#empresa = empresa;
+        this.#direccion = direccion;
+        this.#url = url;
+    }
+
+    static gitId(url) {
+        
+    }
+}
